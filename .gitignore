@@ -1,0 +1,6 @@
+venv
+/backend/db.sqlite3
+/backend/toDoRest/migrations/0001_initial.py
+/backend/toDoRest/migrations/0002_auto_20210924_0927.py
+/backend/toDoRest/migrations/0003_user_user_name.py
+/backend/toDoRest/migrations/0004_user_is_staff.py
