@@ -29,11 +29,11 @@ backend/toDoRest/__pycache__/urls.cpython-39.pyc
 
 backend/toDoRest/__pycache__/views.cpython-39.pyc
 
-backend/toDoRest/management/__pycache__/__init__.cpython-39.pyc
+backend/userRest/management/__pycache__/__init__.cpython-39.pyc
 
-backend/toDoRest/management/commands/__pycache__/__init__.cpython-39.pyc
+backend/userRest/management/commands/__pycache__/__init__.cpython-39.pyc
 
-backend/toDoRest/management/commands/__pycache__/user_create.cpython-39.pyc
+backend/userRest/management/commands/__pycache__/user_create.cpython-39.pyc
 
 backend/toDoRest/migrations/__pycache__/__init__.cpython-39.pyc
 
@@ -46,3 +46,9 @@ backend/toDoRest/migrations/__pycache__/0003_user_user_name.cpython-39.pyc
 backend/toDoRest/migrations/__pycache__/0004_user_is_staff.cpython-39.pyc
 
 frontend/yarn.lock
+
+backend/toDoRest/migrations/
+
+backend/userRest/__pycache__/
+
+backend/userRest/migrations/

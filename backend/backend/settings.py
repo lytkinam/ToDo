@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    'userRest',
     'toDoRest'
 ]
 
@@ -133,4 +134,4 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'toDoRest.User'
+AUTH_USER_MODEL = 'userRest.User'

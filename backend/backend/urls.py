@@ -15,10 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from toDoRest.urls import ToDoRouter
-#from backend.toDoRest.urls import ToDoRouter
+from userRest.urls import userRouter
+#from backend.userRest.urls import userRouter
 
-router = ToDoRouter()
+router = userRouter()
 
 urlpatterns = [
     path('admin/', admin.site.urls),

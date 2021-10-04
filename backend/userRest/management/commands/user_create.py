@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand, CommandError
-from toDoRest.models import User
-#from backend.toDoRest.models import User
+from userRest.models import User
+#from backend.userRest.models import User
 
 
 class Command(BaseCommand):
