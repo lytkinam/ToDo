@@ -10,7 +10,7 @@ class Project(models.Model):
         return self.title
 
 class ToDo(models.Model):
-    project = models.ForeignKey(Project, on_delete = models.CASCADE)
+    project = models.ForeignKey(Project, on_delete=models.CASCADE)
     text = models.CharField(max_length=256)
     date_create = models.DateTimeField()
     date_update = models.DateTimeField()

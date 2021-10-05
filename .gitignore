@@ -52,3 +52,5 @@ backend/toDoRest/migrations/
 backend/userRest/__pycache__/
 
 backend/userRest/migrations/
+
+*.pyc

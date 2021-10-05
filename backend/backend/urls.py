@@ -22,8 +22,11 @@ from toDoRest.urls import toDoRouter
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
-    path('api-user/', include(userRouter().urls)),
-    path('api/', include(toDoRouter().urls)),
+]
+
+urlpatterns += [
+    path(userRouter.api(), include(userRouter.urls())),
+    path(toDoRouter.api(), include(toDoRouter.urls())),
 ]
 
 from django.views.generic import RedirectView
